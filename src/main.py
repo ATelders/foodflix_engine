@@ -61,16 +61,15 @@ if __name__ == '__main__':
  
             if item['nutrition_grade_fr'] == 'a':
                 st.image('assets/a.png')
-            elif item['nutrition_grade_fr'] == 'b':
+            if item['nutrition_grade_fr'] == 'b':
                 st.image('assets/b.png')
-            elif item['nutrition_grade_fr'] == 'c':
+            if item['nutrition_grade_fr'] == 'c':
                 st.image('assets/c.png')
-            elif item['nutrition_grade_fr'] == 'd':
+            if item['nutrition_grade_fr'] == 'd':
                 st.image('assets/d.png')
-            elif item['nutrition_grade_fr'] == 'e':
+            if item['nutrition_grade_fr'] == 'e':
                 st.image('assets/e.png')
-            else:
-                pass
+
              
             st.write('---')
 
