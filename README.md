@@ -1,1 +1,1 @@
-main.py --> streamlit app
+src/main.py --> streamlit app
