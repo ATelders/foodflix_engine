@@ -2,12 +2,11 @@
 import pandas as pd
 from IPython.display import Image, HTML
 import matplotlib.pyplot as plt
-from wordcloud import WordCloud, STOPWORDS
 
 
 
 # Importing the dataset
-listings = pd.read_csv('./data/raw/listings.csv')
+listings = pd.read_csv('/home/apprenant/simplon_projects/foodflix_engine/data/raw/listings.csv')
 listings['id'] = listings.index
 listings = listings[['id', 'product_name', 'brands', 'ingredients_text']]
 listings.head(10)
