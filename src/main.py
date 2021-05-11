@@ -3,10 +3,8 @@ import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.metrics.pairwise import linear_kernel
-import sys
-sys.path.insert(0, "/home/apprenant/simplon_projects/foodflix_engine/")
 
-DATA_PATH = '/home/apprenant/simplon_projects/foodflix_engine/data/raw/listings.csv'
+DATA_PATH = './data/raw/listings.csv'
 @st.cache(allow_output_mutation=True)
 def load_data(path):
     # Importing the dataset
